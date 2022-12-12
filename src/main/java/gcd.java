@@ -24,7 +24,7 @@ while (a!=b) {
 return a;
     }
 
-
+// GCD using Recursion
     static int gcdrec(int a,int b){
         if(b==0)
             return a;

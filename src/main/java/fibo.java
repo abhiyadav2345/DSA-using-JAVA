@@ -1,8 +1,9 @@
 import java.util.*;
 
 public class fibo {
-int f=1;
+
     static int[] fib(int x){
+
         int arr[]=new int[x];
 
         int i=0;
@@ -22,10 +23,12 @@ int f=1;
     }
     public static void main(String[] args) {
 
-int i=0;
-int arr[]=fib(10);
-while(i<10){
-    System.out.println(arr[i]);
+Scanner scan=new Scanner(System.in);
+System.out.print("Enter Number to print Fibonacci series:");
+int i=0,j=scan.nextInt();
+int arr[]=fib(j);
+while(i<j){
+    System.out.print(arr[i]+" ");
     i++;
 
 }

@@ -33,10 +33,10 @@ public class primeNo {
             return false;
         if (n==2||n==3)
             return true;
-        if(n%2==0 || n%3==0)
+        if(n%2==0 || n%3==0) //eleminating multiple of 2 and 3
             return false;
         else
-            for (int i=5;i*i<=n;i+=6)
+            for (int i=5;i*i<=n;i+=6) // check if i or i+2 divides n if true then  it is not a prime number else prime number
                 if(n%i==0  || n%(i+2)==0)
                     return false;
         return true;
