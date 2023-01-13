@@ -62,8 +62,7 @@ int a=scan.nextInt();
 
 
         divisorbetter(a);
-
         divisor(a);
-    divisorsort(a);
+        divisorsort(a);
     }
 }

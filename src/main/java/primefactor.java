@@ -46,7 +46,7 @@ static void primeFactorEff(int n){
 
 }
 
-//more eff method 0(underroot(n))
+//more eff method 0(sqrt(n))
     static void primeFacEff(int n) {
         if (n <= 1)
             return;
